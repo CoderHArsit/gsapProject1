@@ -62,8 +62,8 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <section id="hero" className="">
-        <h1 className="title">GANNE KA JUICE</h1>
+      <section id="hero" className="noisy">
+        <h1 className="title">Shakes and Juices</h1>
         <img
           src="/images/hero-left-leaf.png"
           alt="left-leaf"
