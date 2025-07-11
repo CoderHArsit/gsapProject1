@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails";
 import About from "./components/About";
+import Art from "./components/Art";
 
 //this is needed to make the gsap be refistered globally in the system
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -16,6 +17,7 @@ const App = () => {
       <Hero/>
        <Cocktails/>
        <About/>
+       <Art/>
     </main>
   );
 };
